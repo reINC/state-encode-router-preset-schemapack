@@ -1,0 +1,40 @@
+{
+  "name": "state-encode-router-preset-schemapack",
+  "version": "0.1.0",
+  "description": "state-encode-router preset for schema-based serialization via schemapack",
+  "keywords": [
+    "router",
+    "state",
+    "pack",
+    "serialize",
+    "schemapack",
+    "redux"
+  ],
+  "author": "reINC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reINC/state-encode-router-preset-schemapack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reINC/state-encode-router-preset-schemapack/issues"
+  },
+  "homepage": "https://github.com/reINC/state-encode-router-preset-schemapack#readme",
+  "main": "dist\\index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublish": "webpack"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "schemapack": "^1.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "webpack": "^2.2.1"
+  }
+}
